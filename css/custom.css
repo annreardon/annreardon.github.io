@@ -1,0 +1,96 @@
+ul.custom-nav {
+font-size: 1.5em;
+text-align: center
+}
+
+ul.custom-nav li {
+padding: 1.5em;
+color: #003366
+}
+
+ul.nav img 
+{
+	height: 100px;
+	width: 140px;
+}
+
+/* clear bootstrap header colors */
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+.header-contact {
+	font-size: 1.2em;
+}
+
+.jumbotron  {
+ /* add bootstrap jumbotron background image */
+    background: url("../images/jumbotron.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    /* change bootstrap jumbotron text color */
+    color: #FFF;
+}
+
+.contact_bar 
+{
+padding-top: 25px;
+}
+
+.contact
+ {
+	display: inline;
+	font-size: 1.2em;
+	color: #003366;
+	margin-top: -50px;
+ }
+ 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; 
+}
+
+.navbar-nav li
+{
+color: #003366;
+font-weight: 700;
+font-size: 1.6em;
+}
+
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+hr 
+{
+color: #111;
+background-color: #111;
+height: 2px;
+}
+
+footer{
+font-size: 1.2em;
+}
+
+footer ul
+{
+list-style: none;
+padding-left: 0;
+}
+
+.copyright 
+{
+background-color: #CCC;
+height: 80px;
+}
+
+.copyright p 
+{
+padding-top: 25px;
+}
+
+

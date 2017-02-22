@@ -34,75 +34,47 @@
 
  <body>
 	<header>
+	
 	<div class="navbar-fluid">
-        <div class="container-fluid">
-
-            <div class="collapse navbar-collapse col-lg-6 col-md-6">
-                <ul class="nav navbar-nav  navbar-left">
-                    <li><img src="images/laurel.png"></li>
-                </ul>
-			</div>			
-            <div class="collapse navbar-collapse navbar-right col-lg-6 col-md-6">
-				<!--
-                <div class="dropdown">
-                    <button id="userMenu" class="btn dropdown-toggle btn-primary" type="button" data-toggle="dropdown">
-                        <span>username@domainName.com </span><span class="caret userButton"></span>
-                    </button>
-
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="userMenu">
-                        <li role="presentation"><a href="#" tabindex="-1" role="menuitem">View Details</a></li>
-                        <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Edit</a></li>
-                        <li role="presentation" class="divider"></li>
-                        <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Logout</a></li>
-                    </ul>
-                </div>
-						-->
-						<ul class="nav navbar-nav navbar-right text-right">
-					<li><span class="glyphicon glyphicon-earphone" style="color:blue"></span>(xxx) yyy-zzzz</li>
-					<li><span class="glyphicon glyphicon-envelope"></span>abcdefghi@xyz.com</li></ul>
-            </div>     
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-md-offset-1  collapse navbar-collapse">
+					<img src="images/logo_ar_50_150.png" />
+				</div>
+				<div class="col-md-8">				
+				</div>
+				<div class="col-md-2 header-contact collapse navbar-collapse">
+					<span>
+					<span class="glyphicon glyphicon-earphone" style="color:blue"></span>(xxx) yyy-zzzz</span>
+					<span>
+					<span class="glyphicon glyphicon-envelope" style="color:blue"></span>abcdefghi@xyz.com</span>
+				</div>
+			</div>
 			
-
-            <div class="navbar-header">
+			 <div class="navbar-header">
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
             </div>
-        </div>  	
-  		<div class="row">
-  			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="collapse navbar-collapse" id="mainNav">
-                <ul id="navlist" class="nav nav-justified">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Attorney Profile</a></li>
-                  <li><a href="#">Practice Areas</a></li>
-                  <li><a href="#">Contact</a></li>                
-                </ul>
-              </div>
-          </div>
-  		</div>
-  
-    </div>
-	</header>
-	<!--
-	<div class="container">
-	<ul class="list-inline custom-nav">
-	  <li><a href="">Home</a>
-                    </li>
-                    <li><a href="">Attorney Profile</a>
-                    </li>
-                    <li><a href="">Practice Areas</a>
-                    </li>
-					<li><a href="">Contact</a>
-                    </li>         
-	</ul>
+		
+			<div class="row">				
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<ul class="list-inline custom-nav">
+					<li>Home</li>
+					<li>Attorney Profile</li>
+					<li>Practice Areas</li>
+					<li>Contact</li>
+				</ul>
+				</div>				
+			<div>
+		</div>
 	</div>
-	-->
-
+	</header>
+	<main>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="container">
+	<div class="container-fluid">
     <div class="jumbotron">
       
         <h1>Hello, world!</h1>
@@ -130,7 +102,7 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
-
+	</main>
       <hr>
 
       <footer>
