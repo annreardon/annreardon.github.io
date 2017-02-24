@@ -65,7 +65,10 @@ min-height: 50px;
 
 .jumbo-row
 {
-background-image: linear-gradient(to right, #870000, #190A05, transparent);
+background: #870000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #870000 , #190A05, transparent); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #870000 , #190A05, transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 margin-left: -60px; 
 }
 
