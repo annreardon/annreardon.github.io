@@ -35,6 +35,40 @@ ul.nav img
 	padding-bottom: 10%;
 }
 
+
+.jumbotron1  {
+ /* add bootstrap jumbotron background image */
+    background: url("../images/jumbo1.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+    /* change bootstrap jumbotron text color */
+    color: #FFF;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.jumbotron2  {
+ /* add bootstrap jumbotron background image */
+    background: url("../images/jumbo2.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+    /* change bootstrap jumbotron text color */
+    color: #FFF;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.spacer-row
+{
+min-height: 50px;
+}
+
+.jumbo-row
+{
+background-image: linear-gradient(to right, #870000, #190A05, transparent);
+margin-left: -60px; 
+}
+
 .contact_bar 
 {
 padding-top: 25px;
@@ -86,8 +120,9 @@ padding-left: 0;
 
 .copyright 
 {
-background-color: #CCC;
+background-color: #CCC; 
 height: 80px;
+width: 100%;
 }
 
 .copyright p 
